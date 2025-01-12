@@ -88,3 +88,4 @@ chmod +x queries.sh
 ./queries.sh
 ./queries.sh
 git add .
+pg_dump -U freecodecamp -cC --inserts --no-owner -f worldcup.sql worldcup
